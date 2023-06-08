@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/MAIN-PROJECT-GIGAGRAM/static/css/main.4e9f4622.chunk.css",
+    "main.js": "/MAIN-PROJECT-GIGAGRAM/static/js/main.5f047a4a.chunk.js",
+    "main.js.map": "/MAIN-PROJECT-GIGAGRAM/static/js/main.5f047a4a.chunk.js.map",
+    "runtime-main.js": "/MAIN-PROJECT-GIGAGRAM/static/js/runtime-main.8aa62544.js",
+    "runtime-main.js.map": "/MAIN-PROJECT-GIGAGRAM/static/js/runtime-main.8aa62544.js.map",
+    "static/css/2.7bd1e53e.chunk.css": "/MAIN-PROJECT-GIGAGRAM/static/css/2.7bd1e53e.chunk.css",
+    "static/js/2.95556165.chunk.js": "/MAIN-PROJECT-GIGAGRAM/static/js/2.95556165.chunk.js",
+    "static/js/2.95556165.chunk.js.map": "/MAIN-PROJECT-GIGAGRAM/static/js/2.95556165.chunk.js.map",
+    "index.html": "/MAIN-PROJECT-GIGAGRAM/index.html",
+    "static/css/2.7bd1e53e.chunk.css.map": "/MAIN-PROJECT-GIGAGRAM/static/css/2.7bd1e53e.chunk.css.map",
+    "static/css/main.4e9f4622.chunk.css.map": "/MAIN-PROJECT-GIGAGRAM/static/css/main.4e9f4622.chunk.css.map",
+    "static/js/2.95556165.chunk.js.LICENSE.txt": "/MAIN-PROJECT-GIGAGRAM/static/js/2.95556165.chunk.js.LICENSE.txt",
+    "static/media/BgHome.9a1d0801.mp4": "/MAIN-PROJECT-GIGAGRAM/static/media/BgHome.9a1d0801.mp4",
+    "static/media/home.scss": "/MAIN-PROJECT-GIGAGRAM/static/media/BgHomeImage.e910a343.png",
+    "static/media/BgSign.54514057.mp4": "/MAIN-PROJECT-GIGAGRAM/static/media/BgSign.54514057.mp4",
+    "static/media/signup.scss": "/MAIN-PROJECT-GIGAGRAM/static/media/BgSignImage.4156aee8.png",
+    "static/media/myPage.scss": "/MAIN-PROJECT-GIGAGRAM/static/media/MyPageBg1.75fbaba1.jpg",
+    "static/media/alex.2842247c.png": "/MAIN-PROJECT-GIGAGRAM/static/media/alex.2842247c.png",
+    "static/media/alina.f644feec.png": "/MAIN-PROJECT-GIGAGRAM/static/media/alina.f644feec.png",
+    "static/media/deletedUser.7a39dd72.png": "/MAIN-PROJECT-GIGAGRAM/static/media/deletedUser.7a39dd72.png",
+    "static/media/developers.1eb50be7.png": "/MAIN-PROJECT-GIGAGRAM/static/media/developers.1eb50be7.png",
+    "static/media/gegham.04b4c684.png": "/MAIN-PROJECT-GIGAGRAM/static/media/gegham.04b4c684.png",
+    "static/media/gigacom.bab80219.png": "/MAIN-PROJECT-GIGAGRAM/static/media/gigacom.bab80219.png",
+    "static/media/logoWhite.2de8fb1c.png": "/MAIN-PROJECT-GIGAGRAM/static/media/logoWhite.2de8fb1c.png",
+    "static/media/nazar.049200b9.png": "/MAIN-PROJECT-GIGAGRAM/static/media/nazar.049200b9.png",
+    "static/media/app.scss": "/MAIN-PROJECT-GIGAGRAM/static/media/roboto-vietnamese-700-normal.3425a701.woff2",
+    "static/media/vlad.de3fcc10.png": "/MAIN-PROJECT-GIGAGRAM/static/media/vlad.de3fcc10.png",
+    "static/media/volodymyr.13d318c9.png": "/MAIN-PROJECT-GIGAGRAM/static/media/volodymyr.13d318c9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8aa62544.js",
+    "static/css/2.7bd1e53e.chunk.css",
+    "static/js/2.95556165.chunk.js",
+    "static/css/main.4e9f4622.chunk.css",
+    "static/js/main.5f047a4a.chunk.js"
+  ]
+}
