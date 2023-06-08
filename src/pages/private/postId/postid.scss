@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+@import "../../../scss/colors.scss";
+
+@media (max-width: 520px) {
+   .main__postid {
+    min-width: 0 !important;
+    margin: 15px;
+  }
+}
+@media (max-height: 700px) {
+  .postId{
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: auto !important;
+    .main__postid{
+      height: 100% !important;
+      video, .container__img{
+        min-height: 420px;
+        max-height: 430px !important;
+      }
+      
+    }
+  }
+}
+
+div.postId{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 80px);
+  width: 100%;
+  background-position: center center !important;
+  background-size: cover !important;
+  position: relative;
+
+  .post__info{
+    div{
+      max-height: 100px;
+      overflow-y: scroll;
+      height: 100%;
+    }
+  }
+
+  .main__postid {
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+    width: 500px;
+    height: fit-content;
+    background: $transparent_grey;
+    padding: 0;
+    div.MuiCardHeader-root{
+      z-index: 200;
+    }
+    .posts__container {
+      margin: 0;
+      width: 100%;
+      height: fit-content;
+      box-sizing: border-box;
+      border-radius: 7px;
+      transition: all ease-in-out 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div.alice-carousel {
+        width: 100%;
+        height: 100%;
+        div {
+          width: 100%;
+          height: 100%;
+          div.alice-carousel__wrapper{
+            width: 100%;
+            height: 100%;
+            ul{
+              height: 100%;
+              width: 100%;
+              li{
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                img,
+                video{
+                  max-width: 500px;
+                  max-height: 500px;
+                  object-fit: contain;
+                  transition: all ease-in-out 0.5s;
+                }
+              }
+            }
+          }
+        }
+       
+        ul.alice-carousel__dots {
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          bottom: 0;
+          left: 45%;
+          z-index: 1;
+        }
+        div.alice-carousel__prev-btn,
+        div.alice-carousel__next-btn {
+          position: absolute;
+          margin: 0;
+          padding: 0;
+          top: 42%;
+          z-index: -1;
+          width: fit-content;
+          height: fit-content;
+        }
+        div.alice-carousel__prev-btn {
+          left: 0;
+          div.alice-carousel__prev-btn-wrapper {
+            p {
+              color: $clear-white;
+              font-size: 25px;
+            }
+          }
+        }
+        div.alice-carousel__next-btn {
+          right: 0;
+          div.alice-carousel__next-btn-wrapper {
+            p {
+              color: $clear-white;
+              font-size: 25px;
+            }
+          }
+        }
+      }
+      img,
+      video{
+        max-width: 500px;
+        max-height: 500px;
+        object-fit: contain;
+        transition: all ease-in-out .5s;
+      }
+      &:hover {
+        cursor: pointer;
+        img,
+        video{
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  div.bg_blur{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(6px);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $clear_black;
+}
+
+.loader {
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  border: 10px solid $loading_c2;
+  border-radius: 50%;
+  border-left-color: $loading_c3;
+  animation: loader 1.3s linear infinite;
+}
+@keyframes loader {
+  100% {
+    transform: rotate(360deg);
+  }
+}

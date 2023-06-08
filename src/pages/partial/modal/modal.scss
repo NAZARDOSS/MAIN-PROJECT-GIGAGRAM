@@ -1,0 +1,254 @@
+@import '../../../scss/colors.scss';
+
+
+.modals {
+
+    .btn-close:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    label.Mui-focused{
+        color: $main;
+    }
+    .MuiInputBase-root.Mui-focused{ 
+        .MuiOutlinedInput-notchedOutline{
+            border-color: $main;
+        }
+    }
+    align-content: center;
+    align-items: center;
+
+    .modal-content {
+        max-height: 535px;
+        border-radius: 15px;
+    }
+    .modal-footer {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    backdrop-filter: blur(8px);
+    background-color: $bg_modal;
+
+    input {
+        width: 100%;
+    }
+
+    p.validError {
+        margin-top: 1px;
+        font-size: 12px;
+        color: red;
+        height: 15px;
+        width: 100%;
+    }
+
+    .edit-btn {
+        background-color: $main;
+        border: none;
+        color: $clear_white;
+    }
+
+    .MuiInputBase-root{
+        &::after{
+            border-bottom: 2px solid $main;
+        }
+    }
+    
+    .search__header{
+        padding-bottom: 0;
+    }
+    .avatar-field {
+        span{
+            width: 0;
+        }
+        button {
+            right: 2%;
+            position: absolute;
+            cursor: pointer;
+            &:hover{
+                background: none !important;
+            }
+            &:active{
+                background-color:  none !important;
+            }
+            svg{
+                height: 27px
+            }
+        }
+    }
+
+
+    @media (min-height: 620px) and (min-width: 575px) {
+        display: flex !important;
+
+        .modal-content {
+            max-height: 535px;
+            border-radius: 15px;
+            width: 460px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        display: flex !important;
+
+        .modal-content {
+            width: 350px !important;
+        }
+
+        .modal-dialog {
+            margin: 0 auto;
+        }
+
+    }
+
+    @media (max-width: 400px) {
+
+        .MuiTextField-root{
+            margin: 0 !important;
+        }
+
+        .modal-content {
+            width: 300px !important;
+        }
+
+        li{
+            .MuiListItemButton-gutters{
+                padding-right: 80px;
+            }
+            .MuiListItemAvatar-root{
+                min-width: 50px;
+            }
+            .MuiListItemText-root{
+                span{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+            }
+            button{
+                width: 60px;
+                height: 25px;
+                font-size: 10px;
+            }
+        }
+
+        .modal-dialog {
+            margin: 0 auto;
+        }
+
+        .h4{
+            font-size: 15px;
+        }
+
+        form{
+            .modal-body{
+                padding-bottom: 0;
+            }
+            .validError{
+                height: 12px;
+                font-size: 11px !important;
+            }
+            .modal-footer{
+
+                button{
+                    width: 60px;
+                    height: 25px;
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+
+    @media (max-width: 300px) {
+
+        .modal-content {
+            width: 260px !important;
+        }
+
+        .modal-dialog {
+            margin: 0 auto;
+        }
+    }
+
+}
+
+.search {
+   
+    .btn-close:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    animation: fadeIn 0.1s;
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .btn-primary {
+        border: none;
+        background-color: $main;
+    }
+
+    .modal-header {
+        li {
+            cursor: pointer;
+        }
+    }
+
+    .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+        display: none;
+    }
+
+    .dialog {
+        width: 500px;
+    }
+
+    .follow {
+        color: $clear_white;
+        background-color: $main;
+
+        &:hover {
+            color: $main;
+            background-color: $bg_modal_hover;
+        }
+    }
+
+    .btn-close {
+        position: absolute;
+        right: 30px;
+    }
+}
+.ChildModal{
+    a{
+        cursor: pointer;
+        color: dodgerblue
+    }
+    .MuiBox-root{
+        border: 2px solid $secondary;
+        border-radius: 10px;
+        width: 400px;
+        max-height: 500px;
+        overflow-y: scroll;
+        height: 100%;
+
+        button{
+            color: $main;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .ChildModal{
+        .MuiBox-root{
+            width: 100%;
+        }
+    }
+}

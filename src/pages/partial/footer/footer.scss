@@ -1,0 +1,49 @@
+@import "../../../scss/colors.scss";
+
+  .footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: $clear-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  .links{
+    display: flex;
+    li{
+      cursor: pointer;
+      text-decoration: none;
+      list-style: none;
+      color: $main;
+      margin-right: 20px;
+
+      &:hover{
+
+        color: $secondary;
+      }
+    }
+  }
+    p{
+      color: $grey_br ;
+      margin: 0;
+      font-size: small;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .links {
+      font-size: 8px;
+    }
+    p{
+      font-size: small !important;
+    }
+  }
+
+  @media screen and (max-height: 800px) {
+    .footer {
+      padding: 5px;
+      height: 60px;
+    }
+}

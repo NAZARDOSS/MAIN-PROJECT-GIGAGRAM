@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  z-index: 200;
+
+  div {
+    div.MuiToolbar-root {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    a {
+      margin-right: 10px;
+    }
+  }
+
+  figure.header__logo {
+    margin: 0;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 40px;
+    }
+  }
+  .search__button,
+  .plus__button{
+    transition: all ease-in-out .5s;
+    border: none;
+    background: none;
+    margin-right: 20px;
+    &:active{
+      .search__icon{
+        rotate: -60deg;
+      }
+    }
+  }
+  .plus__button{
+    &:active{
+      .plus__icon{
+        transform: scale(0.9);
+      }
+    }
+  }
+}
+@media screen and (max-width: 330px) {
+  .header {
+    .header__logo {
+      img{
+        height: 35px !important;
+      }
+    }
+    a {
+      margin-right: 5px !important;
+      min-width: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    a {
+      font-size: 3vw;
+    }
+    .search__button,
+    .plus__button{
+      margin: 0;
+      &:hover{
+        .search__icon{
+          rotate: -60deg;
+        }
+      }
+    }
+    .plus__button{
+      &:hover{
+        .plus__icon{
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+}
+
+@media (max-height: 800px) {
+  .header {
+    figure.header__logo {
+      margin: 0;
+      min-height: 60px;
+      height: 60px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 40px;
+      }
+    }
+  }
+}

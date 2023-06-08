@@ -1,0 +1,62 @@
+{
+  "homepage": "http://NAZARDOSS.github.io/MAIN-PROJECT-GIGAGRAM",
+  "name": "gigagram",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/joy": "^5.0.0-alpha.24",
+    "@mui/lab": "^5.0.0-alpha.125",
+    "@mui/material": "^5.13.4",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "mobx": "^6.9.0",
+    "mobx-react": "^7.6.0",
+    "node": "^19.8.1",
+    "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.7.1",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.44.3",
+    "react-icons": "^4.9.0",
+    "react-material-ui-form-validator": "^3.0.1",
+    "react-router-dom": "^6.12.0",
+    "react-scripts": "^4.0.3",
+    "sass": "^1.63.2",
+    "scss": "^0.2.4",
+    "styled-components": "^5.3.9",
+    "use-context": "^0.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import "../../../scss/colors.scss";
+
+div.main__feed{
+    @media (max-width: 580px) {
+        .postCard {
+            width: 100%;
+            div{
+                font-size: 100% ;
+            }
+            p {
+                font-size: 1rem !important;
+            }
+
+        }
+    }
+    @media (max-width: 700px) and (min-width: 580px) {
+        .postCard {
+            width: 100%;
+
+            p {
+                font-size: 1rem !important;
+            }
+
+        }
+        
+    }
+    @media (max-width: 1400px) {
+        .gigagram {
+            display: none !important; 
+        }
+        .usersList {
+            display: none
+        }
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background: $grey_br;
+    section.gigagram{
+        width: 360px;
+        height: 620px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $clear_white;
+        border-radius: 25px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        span{
+            rotate: 270deg;
+            font-size: 80px;
+            font-family: 'Bruno Ace SC', cursive;
+            color: transparent;
+            background: linear-gradient(141deg, rgba(226,98,82,1) 23%, rgb(255, 192, 103) 84%);
+            border-radius: 5px;
+            text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+        }
+    }
+    div.feed__header{
+        padding: 15px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 180px;
+        h2{
+            margin: 0;
+            padding: 0 !important;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        figure.header__logo{
+            width: 300px;
+            height: 130px;
+            transition: all ease-in-out .4s;
+            border-radius: 10px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        h2{
+            padding-right: 190px;
+            font-family: 'Play', sans-serif;
+        }
+        div.header__me{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all ease-in-out .3s;
+            border-radius: 50%;
+            figure.me__avatar{
+                margin: 0;
+                padding: 0;
+                width: 100px;
+                height: 100px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+            p.me__username{
+                font-size: 1.5em;
+                font-family: 'Edu NSW ACT Foundation', cursive;
+            }
+            &:hover{
+                cursor: pointer;
+                background: $grey_br;
+            }
+        }
+    }
+    main.feed{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        div.feed__posts{
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+            h2.errorCase{
+                font-family: 'Play', sans-serif;
+                color: #F47A1D;
+            }
+        }
+        div.MuiFormControl-root {
+            div.MuiInputBase-root {
+                padding: 5px 15px;
+                border-radius: 20px;
+                &::before {
+                    border-bottom: 1px solid $clear_white;
+                    width: 91%;
+                    margin-left: 5%;
+                }
+                input.MuiInputBase-input {
+                    border-radius: 20px;
+                    
+                }
+                &::after {
+                    border-bottom: 1px solid $main;
+                    width: 91%;
+                    margin-left: 5%;
+                }
+            }
+        }
+        div.MuiBox-root {
+            div.MuiAvatarGroup-root {
+                div.MuiAvatar-root {
+                    width: 2rem !important;
+                    height: 2rem !important;
+                }
+            }
+        }
+        div.MuiCardActions-root {
+            button {
+                color: $main !important;
+                &:hover {
+                    background-color: $btn_bg_hover;
+                }
+            }
+        }
+        div.MuiListItemSecondaryAction-root {
+            button {
+                font-size: 12px;
+                color:#F47A1D !important;
+                &:hover {
+                    background-color: $btn_bg_hover;
+                }
+            }
+        }
+    }
+    .footer{
+        margin-top: 30px;
+    }
+}
+a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #4f4848;
+}
+.card__footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 19px !important;
+}
