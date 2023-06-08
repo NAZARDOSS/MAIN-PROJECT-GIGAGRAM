@@ -2,7 +2,7 @@ import { makeAutoObservable } from "mobx";
 
 export default class ConfigStore {
 
-    url = "https://65.109.13.139:9191";
+    url = "http://65.109.13.139:9191";
     token = "";
     followings = [];
     updatePosts = false;
