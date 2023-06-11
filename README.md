@@ -1,7 +1,7 @@
 # THIS PROJECT WAS CREATING IN A TEAM. Original link to view part of our working flow here --> https://github.com/Volodymyr1919/gigagram/tree/main
 
 #How to look this work you can find here --> https://nazardoss.github.io/MAIN-PROJECT-GIGAGRAM/, 
-{back-end is not mine, because of that http requests is not secure, thats why you can not come to private area by this link. But you can also pull that. And after that you can see all of our work}
+back-end is not mine, because of that http requests is not secure, thats why you can not come to private area by this link. But you can also pull that. And than you can see all of our work
 
 # Getting Started with Gigagram
 
